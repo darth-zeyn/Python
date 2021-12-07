@@ -1,0 +1,16 @@
+digits = []
+
+for value in range(1, 210, 13):
+    digit = value ** 2 
+    digits.append(digit)
+    print(value)
+    
+print(min(digits))
+print(len(digits))
+print(max(digits))
+
+print(digits)
+
+
+task = [value**3 for value in range(1,12)]
+print(task)
