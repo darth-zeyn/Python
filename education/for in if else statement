@@ -1,0 +1,16 @@
+users = ['nizi', 'bahlul','shain', 'admin']
+for usernames in users:
+    if 'admin' in usernames:
+        print(f"Hello Master")
+    if 'admin' != usernames:
+        print(f"Greetings {usernames}")
+
+
+old_users = ['john', 'gazanfer', 'bob', 'ahmed', 'nizami']
+new_users = ['gaza', 'samed', 'bob' ,'ahmed', 'kecal']
+
+for names in old_users and new_users:
+    if old_users == new_users:
+        print(f"sorry that name already exsist in {names}")
+    if old_users != new_users:
+        print(f"name is free {names}, you can user it")
