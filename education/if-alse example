@@ -1,0 +1,7 @@
+nizi = ["tepeniz", "dindniz","kakaniz", "nizilingus", "ananiz", "komunizt", "petleniz", "nizdirag", "nizdec"]
+name = "tepeniz"
+
+if name in nizi:
+    print(f"{name.title()}" + " ala bunu Nizidir ki")
+else:
+    print("Ala bu petka Nizi imis")
